@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtlasLoop — Transport intelligent</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="#Accueil">Atlas<span>Loop</span></a>
+            <ul>
+                <li><a href="#Accueil">Accueil</a></li>
+                <li><a href="#Comment-ça-marche">Comment ça marche</a></li>
+                <li><a href="#Annonces">Annonces</a></li>
+                <li><a href="#Transporteurs">Transporteurs</a></li>
+                <li><a href="#Suivi">Suivi</a></li>
+            </ul>
+            <div>
+                <a href="#">Se connecter</a>
+                <a href="#">S'inscrire</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="Accueil">
+            <div class="accueil-container">
+                <a href="#"><i class="fa-jelly-fill fa-regular fa-circle-check"></i>La logistique, autrement</a>
+                <h1>Ne rentrez plus à vide.<br><span>Rentabilisez chaque trajet.</span></h1>
+                <p>AtlasLoop connecte les entreprises qui expédient des marchandises aux<br>transporteurs qui ont de la
+                    capacité disponible. Simple, rapide et transparent.</p>
+                <ul>
+                    <li><i class="fa-solid fa-bolt-lightning"></i>Mise en relation rapide</li>
+                    <li><i class="fa-solid fa-shield-halved"></i>Transporteurs vérifiés</li>
+                    <li><i class="fa-solid fa-chart-line"></i>Coûts optimisés</li>
+                </ul>
+                <div>
+                    <a href="#">Trouver un transport<i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#">Publier une demande</a>
+                </div>
+                <ul>
+                    <li><span>1 250+</span><span>Transporteurs</span></li>
+                    <li><span>8 400+</span><span>Trajets réalisés</span></li>
+                    <li><span>4,8/5</span><span>Note moyenne</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="search panel">
+            <div class="section-head">
+                <div><span class="eyebrow">Commencez ici</span>
+                    <h2>Trouvez le bon transport</h2>
+                </div>
+                <p>Quelques informations suffisent pour commencer.</p>
+            </div>
+            <form class="search-grid">
+                <label>Lieu de départ
+                    <div class="field"><i class="fa-solid fa-location-dot"></i><input id="from"
+                            placeholder="Ex. Casablanca" required>
+                    </div>
+                </label>
+                <label>Destination<div class="field"><i class="fa-solid fa-location-crosshairs"></i><input id="to"
+                            placeholder="Ex. Marrakech" required></div>
+                </label>
+                <label>Date souhaitée<div class="field"><i class="fa-regular fa-calendar"></i><input id="date"
+                            type="date"></div>
+                </label><button class="btn-primary" type="submit"><i class="fa-solid fa-magnifying-glass"></i>
+                    Rechercher</button>
+            </form>
+            <p id="searchMsg" class="message"></p>
+        </section>
+        <section>
+            <div class="container">
+                <h3>Simple comme bonjour</h3>
+                <h2>Comment fonctionne AtlasLoop ?</h2>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
