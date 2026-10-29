@@ -485,86 +485,101 @@ header>div div a:last-child {
     color: white;
     border-color: var(--green-dark);
 }
-.load{
+
+.load {
     border: 1px solid var(--border);
     border-radius: 14px;
     padding: 18px;
-        box-shadow: 0 5px 20px #0f463207;
+    box-shadow: 0 5px 20px #0f463207;
     transition: .2s;
     background-color: var(--white);
 }
-.load>div{
+
+.load>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.loads{
+
+.loads {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 15px;
-     color: var(--green);
-     margin-top: 20px;
+    color: var(--green);
+    margin-top: 20px;
 }
-.status{
-        background: var(--green-light);
+
+.status {
+    background: var(--green-light);
     color: var(--green-dark);
     padding: 5px 9px;
     border-radius: 20px;
     font-size: 10px;
     font-weight: 800;
 }
-.status1{
+
+.status1 {
     background: #fff3df;
     color: #9b6210;
 }
-.load>div div p{
+
+.load>div div p {
     font-size: 9px;
     letter-spacing: 1px;
     color: #8a9990;
     font-weight: 700;
     margin-bottom: 8px;
 }
-.load>div div p span{
-        font-size: 15px;
-        color: var(--text);
-        font-weight: bolder;
-        margin: 6px 0;
+
+.load>div div p span {
+    font-size: 15px;
+    color: var(--text);
+    font-weight: bolder;
+    margin: 6px 0;
 }
-.load>div div:last-child >span{
+
+.load>div div:last-child>span {
     color: #89978f;
     font-size: 10px;
 }
-.load>span{
+
+.load>span {
     font-size: 10px;
     color: #617268;
     margin: 10px 0;
     display: inline-block;
 }
-.load>span i{
+
+.load>span i {
     color: var(--green);
     margin: 0 2px 0 6px;
 }
-hr{
+
+hr {
     border: none;
     height: 1px;
     background-color: var(--border);
 }
-.load>div:last-child{
+
+.load>div:last-child {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
 }
-.load>div:last-child p{
+
+.load>div:last-child p {
     font-size: 10px;
     color: var(--text-light);
 }
-.load>div:last-child p span{
+
+.load>div:last-child p span {
     font-size: 14px;
     font-weight: 600;
     color: var(--text);
 }
-.load>div:last-child a{
+
+.load>div:last-child a {
     text-decoration: none;
     font-size: 10px;
     padding: 9px 12px;
@@ -574,4 +589,81 @@ hr{
     border: 1px solid transparent;
     border-radius: 9px;
     font-weight: 700;
+    transition: transform .2s;
+}
+
+.load>div:last-child a:hover {
+    transform: translateY(-2px);
+}
+
+.container2>p i {
+    color: var(--green);
+}
+
+.cta {
+    width: 90%;
+    margin: 70px auto;
+    padding: 35px 38px;
+    border-radius: 18px;
+    background: var(--green-dark);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.cta>div:first-child h3 {
+    color: #a9e0c4;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.cta>div:first-child h2 {
+    font-size: 31px;
+    line-height: 1.2;
+    margin-top: 6px;
+    font-weight: bold;
+}
+
+.cta>div:first-child p {
+    color: #d2e8dc;
+    font-size: 11px;
+    line-height: 1.8;
+    margin-top: 9px;
+}
+
+.cta div:last-child a {
+    background: white;
+    color: var(--green-dark);
+    border: 1px solid transparent;
+    border-radius: 9px;
+    padding: 11px 16px;
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration: none;
+    display: inline-block;
+    transition:transform .2s;
+}
+
+.cta>div:last-child a:last-child {
+    background: transparent;
+    border-color: #ffffff80;
+    color: white;
+}
+.cta div:last-child a:hover{
+    transform: translateY(-2px);
+}
+.compte{
+    background-color: var(--white);
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+}
+footer p{
+    padding: 13px 0 ;
+    text-align: center;
+    font-size: 12px;
+    color: #8a9990;
+    background-color: var(--white);
 }
