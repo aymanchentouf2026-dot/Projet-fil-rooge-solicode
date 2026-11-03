@@ -25,7 +25,7 @@ jobs:
       - name: Upload session-3
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./session-3
+          path: ./sesion-3
 
       - name: Deploy
         uses: actions/deploy-pages@v4
